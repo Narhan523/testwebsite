@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ikon.css">
+</head>
+<body>
+   <header class="header">
+       <div class="header__top">
+           <div class="container">
+               <div class="flex-wrap">
+                   <div class="flex-wrap">
+                        <i id="cal" class="far fa-calendar-alt"></i>
+                        <p> 10 сарын 10, Ням</p>
+                   </div>
+                   <div class="flex-wrap">
+                        <p class="exchange">
+                            <img src="https://content.ikon.mn/ikon/images/weather/conds/s32.png"
+                                  height="26px" width="26px" alt="">
+                            <div class="title">Дархан <span id="cal">5°C</span> </div>
+                        </p>
+                        <p class="exchange">                             
+                            <div class="title">EUR &nbsp; </div>
+                            <img src="https://content.ikon.mn/ikon/images/xrates/flat/EUR.png"
+                                    height="20px" width="20px" alt="">
+                            <div class="title"> <span id="cal">&nbsp;&nbsp;&nbsp; 3308.04</span></div>
+                            
+                        </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <div class="header__main">
+           <div class="container bg-image">
+               <img src="https://content.ikon.mn/ikon/images/ikon.png" alt="">
+           </div>
+       </div>
+       <div class="header__nav">
+           <div class="container">
+               <div class="flex-wrap">
+                   <ul class="navigation flex-wrap">
+                        <li class="active">Эхлэл</li>
+                        <li class="covid">Ковид-19</li>
+                        <li>Улс-төр</li>
+                        <li>Эдийн-засаг</li>
+                        <li>Эхлэл</li>
+                        <li>Ковид-19</li>
+                        <li>Улс-төр</li>
+                        <li>Эдийн-засаг</li>
+                    </ul>
+                    <div class="search flex-wrap">
+                        <input type="text">
+                        <button>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+ 
+    <main class="main">
+        <div class="container">
+            <div class="flex-wrap start">
+                <div class="sidebar">
+                    <img src="https://content.ikon.mn/raw/2021/9/22/12952/560x400__1_.jpg" 
+                        height="200px" width="279px" alt="">
+               
+                <div class="imcont">
+                    <ul id="imnews" class="tabs">
+                        <li class="neg"> <i class="fas fa-history" style="font-size: 18px;"></i></li>
+                        <li class="hoyr"> <i class="fas fa-fire" style="font-size: 18px;"></i> </li>
+                    </ul>
+                </div>
+         <div class="imns">
+         <div class="screen">
+                    <ul id="husnegt">
+                       <li id="mur">
+                          <table width="95%" border="0"   >
+                            <tr>
+                               <td width="100" valign="top">
+                                   <div class="limg">
+                                       <img src="https://content.ikon.mn/news/2021/10/11/dde223_F72CB319-5735-473F-8734-802836AB9F18_x100.jpg"
+                                            width="100" height="100" alt="">
+                                    </div>
+                                </td>
+                                <td width="100%" valign="top">
+                                     <div class="nemelt">
+                                     <div class="ntitle">
+                                          <span>16:00 цаг</span>
+                                            Нөхөн сонгуулийн нэмэлт санал хураалтын ирц Хэнтий аймагт 41.97%, Сонгинохайрхан дүүрэгт 44.57%-тай байна
+                                      <div class="cator">
+                                      </div>      
+                                      <div class="dtime">
+                                          <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp21</span>
+                                          <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                          <span class="dtimer"> <i class="fas fa-history"></i>&nbsp3 цаг</span>
+                                      </div>
+                                      </div>
+                                      </div>
+                                </td>
+                            </tr>
+                          </table>
+                          </li>
+                          <li id="mur">
+                            <table width="95%" border="0"   >
+                              <tr>
+                                 <td width="100" valign="top">
+                                     <div class="limg">
+                                         <img src="https://content.ikon.mn/news/2021/10/22/69y3jp_ddD5KEr5hYNtM1GP29Mf_x100.jpg"
+                                              width="100" height="100" alt="">
+                                      </div>
+                                  </td>
+                                  <td width="100%" valign="top">
+                                       <div class="nemelt">
+                                       <div class="ntitle">
+                                            Хийн хоолойн төсөлд шаардлагатай тоног төхөөрөмж нийлүүлэхэд гаалийн хөнгөлөлтийг шийдэх 
+                                            зэрэг асуудлууд байгааг "Газпром"-ын удирдлага илэрхийлэв 
+                                        <div class="cator">
+                                        </div>      
+                                        <div class="dtime">
+                                            <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp211</span>
+                                            <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                            <span class="dtimer"> <i class="fas fa-history"></i>&nbsp4 цаг</span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                  </td>
+                              </tr>
+                            </table>
+                            </li>
+                            <li id="mur">
+                                <table width="95%" border="0"   >
+                                  <tr>
+                                     <td width="100" valign="top">
+                                         <div class="limg">
+                                             <img src="https://content.ikon.mn/news/2021/10/22/wn0ixf_4_18__x100.jpg"
+                                                  width="100" height="100" alt="">
+                                          </div>
+                                      </td>
+                                      <td width="100%" valign="top">
+                                           <div class="nemelt">
+                                           <div class="ntitle">
+                                            Баянгол дүүрэг “Манай хороо-Миний гудамж” аянд амжилттай оролцож “ШИЛДЭГ ДҮҮРЭГ”
+                                             номинацад II байр эзэллээ 
+                                            <div class="cator">
+                                            </div>      
+                                            <div class="dtime">
+                                                <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp67</span>
+                                                <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp27</span>
+                                                <span class="dtimer"> <i class="fas fa-history"></i>&nbsp4 цаг</span>
+                                            </div>
+                                            </div>
+                                            </div>
+                                      </td>
+                                  </tr>
+                                </table>
+                                </li>
+                                <li id="mur">
+                                    <table width="95%" border="0"   >
+                                      <tr>
+                                         <td width="100" valign="top">
+                                             <div class="limg">
+                                                 <img src="https://content.ikon.mn/news/2020/10/1/4ouvbo_SHB_3268_x100.jpg"
+                                                      width="100" height="100" alt="">
+                                              </div>
+                                          </td>
+                                          <td width="100%" valign="top">
+                                               <div class="nemelt">
+                                               <div class="ntitle">
+                                                Б.Баярдаваа: Манай улсад төв банкны цахим мөнгө хэрэгтэй эсэх талаар судалгаа хийнэ 
+                                                <div class="cator">
+                                                </div>      
+                                                <div class="dtime">
+                                                    <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp178</span>
+                                                    <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp83</span>
+                                                    <span class="dtimer"> <i class="fas fa-history"></i>&nbsp5 цаг</span>
+                                                </div>
+                                                </div>
+                                                </div>
+                                          </td>
+                                      </tr>
+                                    </table>
+                                    </li>
+                                    <li id="mur">
+                                        <table width="95%" border="0"   >
+                                          <tr>
+                                             <td width="100" valign="top">
+                                                 <div class="limg">
+                                                     <img src="https://content.ikon.mn/news/2021/10/22/a1dgei_MPA-PHOTO-2021-8-ZNDBT-22_x100.jpg"
+                                                          width="100" height="100" alt="">
+                                                  </div>
+                                              </td>
+                                              <td width="100%" valign="top">
+                                                   <div class="nemelt">
+                                                   <div class="ntitle">
+                                                    Монгол Улсын аж ахуйн нэгж, байгууллагын ээлжит тооллогыг ирэх сард хийнэ 
+                                                    <div class="cator">
+                                                    </div>      
+                                                    <div class="dtime">
+                                                        <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp90</span>
+                                                        <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp43</span>
+                                                        <span class="dtimer"> <i class="fas fa-history"></i>&nbsp5 цаг</span>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                              </td>
+                                          </tr>
+                                        </table>
+                                        </li>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy7jXfou2APpXZsA-
+                        AnmVJbVGNzjmwDKK5jzX4z4ZUCJosAECVOnphPREBkjL2maiA6jk&usqp=CAU" height="200px" width="279px" alt="">
+                        <li id="mur">
+                            <table width="95%" border="0"   >
+                              <tr>
+                                 <td width="100" valign="top">
+                                     <div class="limg">
+                                         <img src="https://content.ikon.mn/news/2021/10/22/yty8or_246728881_427300828905042_9013708008657913224_n_x100.jpg"
+                                              width="100" height="100" alt="">
+                                      </div>
+                                  </td>
+                                  <td width="100%" valign="top">
+                                       <div class="nemelt">
+                                       <div class="ntitle">
+                                        ОХУ-ын Засгийн газрын орлогч дарга А.Л.Оверчук тэргүүтэй төлөөлөгчид манай улсад айлчилж байна 
+                                        <div class="cator">
+                                        </div>      
+                                        <div class="dtime">
+                                            <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp56</span>
+                                            <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp230</span>
+                                            <span class="dtimer"> <i class="fas fa-history"></i>&nbsp6 цаг</span>
+                                        </div>
+                                        </div>
+                                        </div>
+                                  </td>
+                              </tr>
+                            </table>
+                            </li>
+                            <li id="mur">
+                                <table width="95%" border="0"   >
+                                  <tr>
+                                     <td width="100" valign="top">
+                                         <div class="limg">
+                                             <img src="https://content.ikon.mn/news/2020/3/28/7b735f_MPA_PHOTO_2019-0051_x100.jpg"
+                                                  width="100" height="100" alt="">
+                                          </div>
+                                      </td>
+                                      <td width="100%" valign="top">
+                                           <div class="nemelt">
+                                           <div class="ntitle">
+                                            Б.Энхбаяр: Хөгжлийн банкны газрын захирал таны хүүхэд гэж үнэн үү? Б.Лхагвасүрэн: Миний хүү
+                                             байгуулагдсан цагаас нь ажилласан
+                                            <div class="cator">
+                                            </div>      
+                                            <div class="dtime">
+                                                <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp89</span>
+                                                <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                                <span class="dtimer"> <i class="fas fa-history"></i>&nbsp7 цаг</span>
+                                            </div>
+                                            </div>
+                                            </div>
+                                      </td>
+                                  </tr>
+                                </table>
+                                </li>
+                                <li id="mur">
+                                    <table width="95%" border="0"   >
+                                      <tr>
+                                         <td width="100" valign="top">
+                                             <div class="limg">
+                                                 <img src="https://content.ikon.mn/news/2021/10/22/w1f1ep_IMG_7757_x100.jpg"
+                                                      width="100" height="100" alt="">
+                                              </div>
+                                          </td>
+                                          <td width="100%" valign="top">
+                                               <div class="nemelt">
+                                               <div class="ntitle">
+                                                "Аутизмын хүрээний эмгэгтэй сурагчдыг боловсролд тэгш хамруулах нь" номын нээлт боллоо 
+                                                <div class="cator">
+                                                </div>      
+                                                <div class="dtime">
+                                                    <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp45</span>
+                                                    <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp78</span>
+                                                    <span class="dtimer"> <i class="fas fa-history"></i>&nbsp8 цаг</span>
+                                                </div>
+                                                </div>
+                                                </div>
+                                          </td>
+                                      </tr>
+                                    </table>
+                                    </li>
+                                </li>
+                                <li id="mur">
+                                    <table width="95%" border="0"   >
+                                      <tr>
+                                         <td width="100" valign="top">
+                                             <div class="limg">
+                                                 <img src="https://content.ikon.mn/news/2021/10/22/kja65l_BA06DF0B-8BFC-4782-968B-F33BF37B7787_x100.jpg"
+                                                      width="100" height="100" alt="">
+                                              </div>
+                                          </td>
+                                          <td width="100%" valign="top">
+                                               <div class="nemelt">
+                                               <div class="ntitle">
+                                                "С.Жавхлангаас мэдүүлэг авахаар 11 удаа залгахад утсаа аваагүй, 
+                                                гурван удаагийн дуудах хуудас хүлээж авсангүй. Хууль хүн бүрд тэгш үйлчилнэ" 
+                                                <div class="cator">
+                                                </div>      
+                                                <div class="dtime">
+                                                    <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp1</span>
+                                                    <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                                    <span class="dtimer"> <i class="fas fa-history"></i>&nbsp9 цаг</span>
+                                                </div>
+                                                </div>
+                                                </div>
+                                          </td>
+                                      </tr>
+                                    </table>
+                                    </li>
+                                    <li id="mur">
+                                        <table width="95%" border="0"   >
+                                          <tr>
+                                             <td width="100" valign="top">
+                                                 <div class="limg">
+                                                     <img src="https://content.ikon.mn/news/2020/6/27/emx94b_MPA_PHOTO-2019-10-3827_x100.jpg"
+                                                          width="100" height="100" alt="">
+                                                  </div>
+                                              </td>
+                                              <td width="100%" valign="top">
+                                                   <div class="nemelt">
+                                                   <div class="ntitle">
+                                                    Эрүүл мэндийн яам халдвар аваад эдгэрсэн тохиолдлын тоог МЭДЭЭЛЭХЭЭ ЗОГСООЛОО 
+                                                    <div class="cator">
+                                                    </div>      
+                                                    <div class="dtime">
+                                                        <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp78</span>
+                                                        <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                                        <span class="dtimer"> <i class="fas fa-history"></i>&nbsp10 цаг</span>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                              </td>
+                                          </tr>
+                                        </table>
+                                        </li>
+                                        <li id="mur">
+                                            <table width="95%" border="0"   >
+                                              <tr>
+                                                 <td width="100" valign="top">
+                                                     <div class="limg">
+                                                         <img src="https://content.ikon.mn/news/2021/10/22/nho790_shatahuun_pic_x100.jpg"
+                                                              width="100" height="100" alt="">
+                                                      </div>
+                                                  </td>
+                                                  <td width="100%" valign="top">
+                                                       <div class="nemelt">
+                                                       <div class="ntitle">
+                                                        “Роснефть” компанийн захирал И.И.Сечин Монгол Улсад шатахууныг
+                                                         гэрээний дагуу бүрэн нийлүүлэхээ мэдэгдэв 
+                                                        <div class="cator">
+                                                        </div>      
+                                                        <div class="dtime">
+                                                            <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp56</span>
+                                                            <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                                            <span class="dtimer"> <i class="fas fa-history"></i>&nbsp8 цаг</span>
+                                                        </div>
+                                                        </div>
+                                                        </div>
+                                                  </td>
+                                              </tr>
+                                            </table>
+                                            </li>
+                                            <li id="mur">
+                                                <table width="95%" border="0"   >
+                                                  <tr>
+                                                     <td width="100" valign="top">
+                                                         <div class="limg">
+                                                             <img src="https://content.ikon.mn/news/2021/10/7/79tdvs_2L1J1985_x100.jpg"
+                                                                  width="100" height="100" alt="">
+                                                          </div>
+                                                      </td>
+                                                      <td width="100%" valign="top">
+                                                           <div class="nemelt">
+                                                           <div class="ntitle">
+                                                            Энэ сарын 23-наас зарим нутгаар хур тунадас орно 
+                                                            <div class="cator">
+                                                            </div>      
+                                                            <div class="dtime">
+                                                                <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp90</span>
+                                                                <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                                                <span class="dtimer"> <i class="fas fa-history"></i>&nbsp9 цаг</span>
+                                                            </div>
+                                                            </div>
+                                                            </div>
+                                                      </td>
+                                                  </tr>
+                                                </table>
+                                                </li>
+                                                <li id="mur">
+                                                    <table width="95%" border="0"   >
+                                                      <tr>
+                                                         <td width="100" valign="top">
+                                                             <div class="limg">
+                                                                 <img src="https://content.ikon.mn/news/2021/10/22/zlsmws_MPA_PHOTO2021-04860_x100.jpg"
+                                                                      width="100" height="100" alt="">
+                                                              </div>
+                                                          </td>
+                                                          <td width="100%" valign="top">
+                                                               <div class="nemelt">
+                                                               <div class="ntitle">
+                                                                “Мини НҮБ” загвар хуралдаанд 80 гаруй оюутан, сурагч 16 улсыг төлөөлөн оролцож байна 
+                                                                <div class="cator">
+                                                                </div>      
+                                                                <div class="dtime">
+                                                                    <span class="dtimeneg"> <i class="fas fa-share"></i>&nbsp21</span>
+                                                                    <span class="dcomment"> <i class="fas fa-comment"></i>&nbsp23</span>
+                                                                    <span class="dtimer"> <i class="fas fa-history"></i>&nbsp10 цаг</span>
+                                                                </div>
+                                                                </div>
+                                                                </div>
+                                                          </td>
+                                                      </tr>
+                                                    </table>
+                                                    </li>
+                            </ul>
+                            </div>
+                            </div>
+                                    <div class="nap">
+                                        <img src="https://www.itzone.mn/photos/shares/landingpages/qnap/TVS-872XT.png" 
+                                        height="300px" width="279px" alt="">
+                                    </div>
+                                    <div class="taalah">
+                                       <a class="face" href="http://wwww.facebook.com/">
+                                    <span> <i class="fab fa-facebook-f"></i>  Таалах</span></a>
+                                        <a class="twitter" href="http://www.twitter.com">
+                                        <span> <i class="fab fa-twitter"></i> Дагах</span> </a>
+                                        <a class="iris" href="/rss"><i class="fas fa-rss"></i> Холбох</a>
+                                    </div>
+            </div>     
+     <div class="content">
+           <div class="ink">
+              <div class="p10"></div>
+                 <table width="100%" cellspacing="5" cellpadding="0" border="0" >
+                 <tr>
+                    <td class="tabledate"> <span>3цаг 43минутын өмнө</span></td>
+                    <td width="100%">
+                       <table width="100%" cellspacing="3" cellpadding="0" border="0" >
+                            <tr>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" id="apple" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                            <td style="height:6px line-height:0 ">
+                                <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                  </tr>
+                              </table>
+                          </td>
+                          <td> <i class="fas fa-directions"></i> </td>
+                          <td class="tabledate"> <span>3 өдөр 6 цагийн өмнө</span></td>
+                       </tr>
+                   </table>
+                   <div class="nass" style="left: 120px;">2021/10/20</div>
+                </div>
+                <div class="doloo"> <img src="https://content.ikon.mn/raw/2021/10/18/13045/Ikon_1360x200.png" height="100px" width="100%"
+                     alt=""> </div>
+                     <div class="zurgnuud">
+                        <div class="zur">
+                            <img src="https://content.ikon.mn//news/2021/10/8/9lrf4k_MPA_PHOTO_2019-12-5423_h450.jpg"
+                            height="100%" width="65%" alt="">
+                            <div class="bichih">
+                               <p>Шинээр 1,719 хүн халдвар авсан нь PCR шинжилгээгээр батлагдаж, 19 иргэн энджээ </p> </div>
+                        </div> 
+                     </div>
+                  <section class="hoyrdahi">
+                      <div class="mmdda">
+                          <img src="https://content.ikon.mn//news/2021/10/22/2ktnb8_1600x800_x220.jpg" width="250" height="250" alt="">
+                          <div class="tailbar">"Боломжоо ашиглая"</div>
+                        </div>
+                      <div class="mmdda">
+                          <img src="https://content.ikon.mn//news/2021/10/22/6unvk7_mobi_x220.jpg"  width="250" height="250" alt="">
+                          <div class="tailbar">Хүүхэд бүрд тэгш боловсрол төсөл</div>
+                        </div>
+                      <div class="mmdda">
+                          <img src="https://content.ikon.mn//news/2021/10/22/6uj0ai_Medegdel_3__x220.jpg" width="250" height="250" alt="">
+                          <div class="tailbar">“Нэйшнл Лайф Даатгал” ХХК: МЭДЭГДЭЛ </div>
+                        </div>
+                  </section>
+                  <section class="hoyrdahi">
+                    <div class="mmdda">
+                        <img src="https://content.ikon.mn//news/2020/3/28/7b735f_MPA_PHOTO_2019-0051_x220.jpg" width="250" height="250" alt="">
+                        <div class="tailbar">"Б.Энхбаяр: Хөгжлийн банкны газрын захирал таны хүүхэд "</div>
+                      </div>
+                    <div class="mmdda">
+                        <img src="https://content.ikon.mn//news/2021/10/21/llbyjj__5__x220.jpg"  width="250" height="250" alt="">
+                        <div class="tailbar">Блокчейн бол блокноос гарах боломж </div>
+                      </div>
+                    <div class="mmdda">
+                        <img src="https://content.ikon.mn//news/2021/10/22/83setp_MPA_PHOTO2021-04962_x220.jpg" width="250" height="250" alt="">
+                        <div class="tailbar">"Залуучууд халдвар тээгч болж, 12-оос доош насны хүүхдүүдэд"</div>
+                      </div>
+                </section>
+                <p style="color: #fd3e0a; font-size: 20px; font-family: 'Times New Roman', Times, serif;
+                             padding-top: 10px; padding-left: 6px;"> ОНЦЛОХ МЭДЭЭ</p>
+                    <section class="gurawdahi">
+                        <div class="okk">
+                            <img src="https://content.ikon.mn//news/2016/7/22/b96abb_20151202011921-f9d6ce0e_x220.jpg" width="180" height="200" alt="">
+                            <div class="tailbar">"Оюутолгойн далд уурхайн хөрөнгө  "</div>
+                          </div>
+                        <div class="okk">
+                            <img src="https://content.ikon.mn//news/2021/10/1/ksg2h3_MPA_PHOTO2021-7571_x220.jpg"  width="180" height="200" alt="">
+                            <div class="tailbar">Хуулийн төслөөс гадаадад сургууль </div>
+                          </div>
+                        <div class="okk">
+                            <img src="https://content.ikon.mn//news/2021/10/21/ysbinv_D12_2089_x220.jpg" width="180" height="200" alt="">
+                            <div class="tailbar">"Осстем Монгол" ХХК амны хөндийн эрүүл ахуйд нь эмчилгээ шаардлагатай </div>
+                          </div>
+                          <div class="okk">
+                            <img src="https://content.ikon.mn//news/2021/4/18/xx9ggh_Skytel-logo1_x220.jpg" width="180" height="200" alt="">
+                            <div class="tailbar">ТЕНДЕРИЙН УРИЛГА: Хөдөлмөрийн тухай </div>
+                          </div>
+                    </section>
+                    <div style="padding-top: 20px;"> <img src="https://content.ikon.mn/raw/2021/10/13/13022/Banner_1320x200.jpg" height="100px" width="100% alt=""></div>
+                    <p style="color: #fd3e0a; font-size: 20px; font-family: 'Times New Roman', Times, serif;
+                             padding-top: 10px; padding-left: 6px;"> КОВИД-19</p>
+                        <section class="duruwdahi">
+                            <div class="medee">
+                                <div class="covid">
+                                    <p>Батлагдсан </p>
+                                    <p><h3>+1744</h3></p>
+                                    <p><h2>344,736 </h2></p>
+                                </div>
+                              </div>
+                            <div class="medee">
+                                <div class="covid">
+                                    <p>Эдгэрсэн</p>
+                                    <p><h3>+6064</h3></p>
+                                    <p><h2>506,181</h2></p>
+                                 </div>
+                              </div>
+                            <div class="medee">
+                                <div class="covid">
+                                    <p>Вакцинжуулалт</p>
+                                    <p>1-р тун /69.3%/</p>
+                                    <p><h3>2,254,204</h3></p>
+                                    <p>2-р тун /65.7%/</p>
+                                    <p><h2>2,136,979</h2></p>
+                                 </div>
+                              </div>
+                              <div class="medee">
+                                <div class="covid">
+                                    <p>Нас барсан</p>
+                                    <p><h3>>+16</h3</p>
+                                    <p><h2>1,534/131</h2></p>
+                                 </div>
+                              </div>
+                        </section>
+                    <center>
+                        <div class="tawdahi">
+                            <button style="background-color: white; color: blue; border-radius: 50px; width: 33%; height: 40px">
+                            <span>Нийт</span></button>
+                            <button class="bott" style="background-color: grey; color: black; border: 0px; border-radius: 0px; width: 33%; height: 40px">
+                            <span>Улаанбаатар</span></button>
+                            <button class="bott" style="background-color: grey; color: black; border: 0px; border-radius: 50px; width: 33%; height: 40px">
+                            <span>Орон нутаг</span></button>
+                        </div>
+                    </center>
+                 <div> <img src="zurg.jpg.jpeg" style="margin-top: 20px;" width="100%" height="400px" alt=""></div>
+                        <p style="color: #fd3e0a; font-size: 20px; font-family: 'Times New Roman', Times, serif;
+                                 padding-top: 10px; padding-left: 6px;"> ХАЛУУН СЭДЭВ</p>     
+                 <div class="tehh"> <span>Технологийн Ертөнц</span></div>
+                 <section class="gurawdahi">
+                    <div class="okk">
+                        <img src="https://content.ikon.mn//news/2021/9/2/8n0bto_MPA_PHOTO_2021-6046_x220.jpg" width="180" height="200" alt="">
+                        <div class="tailbar">Ж.Отгонболд: Вакцины хоёр тунг хийлгээд халдвар</div>
+                      </div>
+                    <div class="okk">
+                        <img src="https://content.ikon.mn//news/2021/10/22/83setp_MPA_PHOTO2021-04962_x220.jpg"  width="180" height="200" alt="">
+                        <div class="tailbar">"Залуучууд халдвар тээгч болж, 12-оос доош насны </div>
+                      </div>
+                    <div class="okk">
+                        <img src="https://content.ikon.mn//news/2021/10/22/6gwopr_MPA05070_x220.jpg" width="180" height="200" alt="">
+                        <div class="tailbar">“КОВИД-19-ийн эсрэг вакцины гуравдугаар тун  </div>
+                      </div>
+                      <div class="okk">
+                        <img src="https://content.ikon.mn//news/2021/10/8/9lrf4k_MPA_PHOTO_2019-12-5423_x220.jpg" width="180" height="200" alt="">
+                        <div class="tailbar"> Шинээр 1,719 хүн халдвар авсан нь PCR шинжилгээгээр батлагдаж, 19 иргэн энджээ
+                        </div>
+                      </div>
+                </section>
+                <div class="ink" style="margin-top: 20px;">
+                    <div class="p10"></div>
+               <table width="100%" cellspacing="5" cellpadding="0" border="0" >
+                   <tr>
+                      <td class="tabledate"> <span> 5өдөр 3цагын өмнө</span></td>
+                      <td width="100%">
+                          <table width="100%" cellspacing="3" cellpadding="0" border="0" >
+                              <tr>
+                                 <td style="height:6px line-height:0 ">
+                                   <a class="orange" id="apple" href="http://ikon.com/"> <span ></span></a></td>
+                                 <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                 <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                 <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                 <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                 <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                                <td style="height:6px line-height:0 ">
+                                   <a class="orange" href="http://ikon.com/"> <span ></span></a></td>
+                              </tr>
+                          </table>
+                          </td>
+                      <td> <i class="fas fa-directions"></i> </td>
+                      <td class="tabledate"> <span>4сарын өмнө</span></td>
+                   </tr>
+               </table>
+               <div class="nass" style="left: 120px;">2021/10/15</div>
+            </div>
+            <div class="tehh"> <span>quez</span></div>
+            <section class="gurawdahi">
+               <div class="okk">
+                   <img src="https://content.ikon.mn//news/2017/4/20/936ced_globus_x220.jpg" width="180" height="200" alt="">
+                   <div class="tailbar">QUIZ: Дэлхийн 24 НИЙСЛЭЛ ХОТЫН НЭРИЙГ Англиар бичиж чадах уу? </div>
+                 </div>
+               <div class="okk">
+                   <img src="https://content.ikon.mn//news/2017/11/23/b6688d_6_Essential_Concepts_for_math_x220.jpg"  width="180" height="200" alt="">
+                   <div class="tailbar">QUIZ: Хүмүүсийн 5 хувь энэхүү дунд сургуулийн математикийн сорилыг давж чадна  </div>
+                 </div>
+               <div class="okk">
+                   <img src="https://content.ikon.mn//news/2021/2/26/0mlh6i_1_x220.jpg" width="180" height="200" alt="">
+                   <div class="tailbar">QUIZ: Та өөрийгөө хэвлэл мэдээлэл, мэдээллийн боловсролтой гэж боддог уу?  </div>
+                 </div>
+                 <div class="okk">
+                   <img src="https://content.ikon.mn//news/2021/2/15/cp7eoe_cover_x220.jpg" width="180" height="200" alt="">
+                   <div class="tailbar"> QUIZ: Таны сэтгэлгээ аль үед хамаарах вэ? </div>
+                 </div>
+                 </section>
+                 <div class="tehh"> Санал асуулга</div>
+                 <section class="zurgaa">
+                    <table width="100%" border="0">
+                        <tr>
+                           <td width="180" valign="top">
+                               <div class="limg">
+                                   <img src="https://content.ikon.mn//news/2021/10/26/tnm7js_iKON_ASUULGA_FINEDU_x220.jpg"
+                                        width="180" height="200" alt="">
+                                </div>
+                            </td>
+                            <td width="100%" valign="top">
+                                 <div class="asuulga">
+                                  <p class="b">
+                                  Та Санхүүгийн боловсрол олгох <a href="https://edu.golomtbank.com/" style="color:#333"> https://edu.golomtbank.com/</a> веб сайтаас банк санхүү,
+                                  эдийн засгийн талаарх цогц ойлголтыг авах боломжтой гэдгийн мэдэх үү?</p>
+                                  <p class="a"> (Нийт санал: 498)</p>
+                                    <input type="checkbox" id="vehicle1" value="Bike" >
+                                    <label for="vehicle1"> Мэднэ </label><br>
+                                    <input type="checkbox" id="vehicle1"value="Car">
+                                    <label for="vehicle2">  мэдэхгүй</label><br>
+                                   <center style="margin-top: 10px;" > <button class="button"> САНАЛ ӨГӨХ</button></center>
+                                  
+                            </td>
+                        </tr>
+                      </table>
+                </section>
+            </div>
+            </div>
+        </div>
+    </main>
+ 
+    <footer class="foot">
+        <div class="footerr">
+        <div class="footlogo">
+        <div class="bcccc">
+            <img src="https://content.ikon.mn/ikon/images/footer@2x.png" width="125px" height="25px" alt="">
+        </div>
+        </div>
+
+    <div class="aguulga">
+        <ul class="ugg">
+            <li>Бидний тухай</li>
+            <li>Үйлчилгээний нөхцөл</li>
+            <li>Редакцын бодлого</li>
+            <li>Сурталчилгаа байршуулах</li>
+            <li>Холбоо байрих</li>    
+        </ul>
+        <p> 2021 Бенекрафт ХХК</p>
+    </div>
+</div>
+    </footer>
+ </body>
+ </html>
